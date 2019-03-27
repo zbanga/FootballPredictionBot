@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>EPL Prediction Bot</title>
   <meta charset="utf-8">
@@ -10,34 +11,111 @@
   <link rel="stylesheet" type="text/css" href="../static/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+
   <!--Javacript-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
+  <header>
+    <nav class="navbar navbar-inverse" id="NavigationBar">
+      <div>
+        <span class="topbutton" id="name">EPL Prediction Bot</span>
+      </div>
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="#How">
+              <span class="topbutton">Home</span>
+            </a></li>
+          <li><a href="#Predict">
+              <span class="topbutton">Predict</span>
+            </a></li>
+          <li><a href="#">
+              <span class="topbutton">Standings</span>
+            </a></li>
+          <li><a href="#">
+              <span class="topbutton">About</span>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-<nav class="navbar navbar-inverse" id="NavigationBar">
-<div><scan class="topbutton" id="name">EPL Prediction Bot</scan></div>
-  <div class="container-fluid">       
-    <ul class="nav navbar-nav" >    
-        <li><a href="#"><scan class="topbutton">Home</scan></a></li>
-        <li><a href="#"><scan class="topbutton">Predict</scan></a></li>
-        <li><a href="#"><scan class="topbutton">Standings</scan></a></li>
-        <li><a href="#"><scan class="topbutton">About</scan></a></li>    
-    </ul>
-  </div>
-</nav>
-<main>
-<div class="homescreen">
-    <a href = "#How"><button type="button" id="PredictNow"><strong>PREDICT NOW!</strong></button></a>
-</div>
+  <main>
+    <div class="homescreen">
+      <a href="#How"><button type="button" id="PredictNow"><strong>PREDICT NOW!</strong></button></a>
+    </div>
 
-<div class ="Description" id="How">
-<h1 class="paragraph"><Strong>How does it work?</Strong></h1>
-<p>This bot analyses past fixtures to predict future matches</p>
-</div>
+    <div class="Description" id="How">
+      <h1 class="paragraph"><Strong>How does it work?</Strong></h1>
+      <p>This bot analyses past fixtures to predict future matches</p>
+    </div>
+      
+      <div class="content-section">
+        <form method="POST" action="/">
+          <fieldset class="form-group">     
+      
+            <div class="form-group">
+              <span>Home Team : </span>
+              <input class="input" type="text" name="HomeTeam">
+            </div>
+      
+      
+            <div class="form-group">
+           
+              <span>Away Team : </span>
+              <input class="input" type="text" name="AwayTeam">
+            </div>
+            
 
-</main>
+            <div class="test">
+              The home team is {{ state.HomeTeam }}
+              The away team is {{ state.AwayTeam }}
+            </div>
+      
+          </fieldset>
+
+          <div class="form-group">
+            <input class="btn btn-primary" type="submit" value="Predict">
+            
+          </div>
+
+        </form>
+      </div>
+
+
+
+
+
+
+      <div class="PredictingModel" id="Predict">
+        <h1 class="paragraph"><Strong>Predicting Model</Strong></h1>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+        <p>This bot analyses past fixtures to predict future matches</p>
+
+      </div>
+
+  </main>
+  <footer>
+    <p>Posted by: Hege Refsnes</p>
+    <p>Contact information: <a href="mailto:someone@example.com">
+        er.li@mail.mcgill.ca</a></p>
+  </footer>
+
+
 </body>
-</html>
 
+</html>

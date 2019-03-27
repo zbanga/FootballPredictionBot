@@ -6,7 +6,7 @@ body{
     background-image: url(../img/PremierLeague.jpg);
     background-repeat: no-repeat;
     background-size: 75%;
-    background-position-y: 75px;   
+    background-position-y: 50px;   
     background-position-x: center;
 }
 
@@ -32,6 +32,7 @@ h1{
     padding: 0px;
     border: 0px;
     margin: 0px;
+    /* height: 70px; */
 }
 
 div.homescreen{
@@ -43,8 +44,8 @@ div.homescreen{
 
 #PredictNow{
     position: absolute;
-    top:77%;
-    right: 45.65%;
+    top:73%;
+    right: 45.55%;
     display:inline-block;
 	color:grey;
 	font-size:2em;
@@ -79,7 +80,7 @@ div.homescreen{
     padding:5px;
     height: 700px;
     padding-left: 25px;
-    background-image: url(../img/maxresdefault.jpg);
+    /* background-image: url(../img/maxresdefault.jpg); */
 }
 
 /* li a{
@@ -88,3 +89,11 @@ div.homescreen{
    outline: none;
    
 } */
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
