@@ -13,7 +13,7 @@ import numpy as np
 from IPython.display import display
 import numpy as np
 import matplotlib.pyplot as plt
-#get_ipython().run_line_magic('matplotlib', 'inline')
+get_ipython().run_line_magic('matplotlib', 'inline')
 from sklearn import svm
 from sklearn.metrics import classification_report
 from scipy import io
@@ -54,7 +54,7 @@ from keras.wrappers.scikit_learn import KerasClassifier
 # In[2]:
 
 
-df = pd.read_csv(r"C:\Users\Mlej\futbol-prediction-bot\csv\Premier League Stats.csv")
+df = pd.read_csv('Premier League Stats.csv')
 
 df.info()
 df.head()
@@ -710,7 +710,17 @@ estimator = KerasClassifier(build_fn=baseline_model, epochs=200, batch_size=5, v
 kfold = KFold(n_splits=10, shuffle=True, random_state=seed)
 results = cross_val_score(estimator, scaledData, y_one_hot_encoded, cv=kfold)
 print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
+
+
 # In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
 def baseline_model():
     # create model
     model = Sequential()
