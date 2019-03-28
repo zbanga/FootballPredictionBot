@@ -16,52 +16,130 @@ h1{
 }
 
 #NavigationBar{
-    background-color:#F2F2F2;
+    /* background-color:rgb(182, 180, 180); */
+    background-color: white;
     border-style: none;
+    height: 70px;
+    opacity: 0.75;
 }
 
 .topbutton{
-    color:grey;
+    color:gray;
     font-family: "Verdana";
     font-size: 18px;
     padding: 10px;
     border: 1px;
-    margin: 0px;
+    margin: 5px;
+    font-weight: bold; 
+    /* border: dashed 1px; */
+    opacity: 0.75;
+    display:inline;
+    /* border-radius: 5px; */
+    margin-top: 10px;
+
+
+
+
+
 }
+
+
 .navbar{
     padding: 0px;
     border: 0px;
-    margin: 0px;
+    margin: 10px;
 }
 
 div.homescreen{
     position: relative;
     width: 100%;
-    height: 650px;   
+    height: 700px;   
 
 }
 
 #PredictNow{
     position: absolute;
-    top:77%;
-    right: 45.65%;
+    /* top:80%; */
+    top: 70%;
+    /* right: 45.65%; */
+    right: 40%;
     display:inline-block;
-	color:grey;
+    /* color:grey; */
+    color: white;
 	font-size:2em;
 	opacity:1;
-	background-color:white;
-    padding: 1%;
+	/* background-color:white; */
+    padding-bottom: 10px;
     outline:none ;
-    outline-color: grey;
+    /* outline-color: grey; */
     outline-width: 3px;
-    border:dashed;
+    border: 1px;
     border-style: groove;
-    border-radius:10px;
-    margin: 15px;
-    font-family: "Calibri";
+    /* border-radius:10px; */
+    /* margin: 15px; */
+    font-family: "Verdana";
     font-size: 20px;
     margin: 0px;
-    padding: 7px; 
+    padding: 40px; 
+    /* border-radius: 5px; */
+    text-align: center;
+}   
+
+
+@-webkit-keyframes bounce {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 10px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -25px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
+
+#PredictNow {
+  text-align:center;
+  /* margin:0 auto; */
+  margin-top: 40px;
+  height:10px;
+  width:300px;
+  opacity: 0.25;
+  background:rgb(82, 80, 80);
+  border-color: rgb(82, 80, 80);
+  border-radius: 50px;
+  padding-bottom: 60px;
+ -webkit-animation: bounce 0.75s infinite;
+}    
+
+    
+    /* @keyframes kreep {
+        0% {-webkit-transform: scale(1.1,.9);
+            transform: scale(1.1,.9);}
+       50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+       70% { -webkit-transform: scale(1);
+             transform: scale(1);}
+    }
+    
+#PredictNow {
+      display: inline-block;
+      /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+      animation: kreep 0.7s ease 2s infinite alternate;
+    } */
+    
+/* #PredictNow:hover {
+      animation: none;
+    } */
+
+
+#name {
+    padding-bottom: 10px;
 }
 
 .container-fluid {
@@ -77,14 +155,118 @@ div.homescreen{
 
 .Description {
     padding:5px;
-    height: 700px;
-    padding-left: 25px;
-    background-image: url(../img/maxresdefault.jpg);
+    height: 740px;
+    /* background-image: url(../img/maxresdefault.jpg); */
+    /* background-color:rgb(182, 180, 180); */
+    background-color: white;
+    opacity: 0.75;
+    margin: 60px;
+    padding: 35px;
+    height: 1100px;
 }
 
-/* li a{
-   border: solid 1px;
-   border-color: silver;
-   outline: none;
+.paragraph {
+    padding: 15px;
    
+}
+
+/* .text1 img {
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-left: 700px; */
+    
+ 
+/* .text1 {
+    padding: 20px;
+    margin-top: 40px;
+    overflow: auto;
+ } */
+/* 
+}
+ .text2 {
+     padding: 5px;
+     float: left; 
+
+ } */
+
+/* .image1 {
+    height: 300px;
+    width: 500px;
+    margin-left: 700px;
+    float: right;
 } */
+
+.image1 {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 100px;
+}
+
+.image2 {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right:100px
+    
+}
+
+#text1 {
+    height: 300px;
+    margin-top: 40px;
+}
+
+#text1 p {
+    margin-left: 15px;   
+    line-height: 30px;
+}
+
+.paragraph {
+    padding: 15px;
+} 
+
+
+.text2{
+    height: 740px;
+}
+
+.contact {
+font-family: Verdana;
+text-align: center;
+color: white;
+background-color: gray;
+height: 140px;
+opacity: 0.40;
+}
+
+.contact h3 {
+    font-weight: bold;
+}
+
+#submit {
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 50px;
+    width: 450px;
+    height: 400px;
+    font-family: Verdana;
+    
+    
+}
+
+#submit input {
+    padding:20px;
+}
+
+#submit span {
+    text-align: center;
+}
+
+
+
+
+
+
+
+ 
