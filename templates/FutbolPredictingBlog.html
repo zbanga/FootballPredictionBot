@@ -15,6 +15,8 @@
   <!--Javacript-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
 </head>
 
 <body>
@@ -49,41 +51,31 @@
 
     <div class="Description" id="How">
       <h1 class="paragraph"><Strong>How does it work?</Strong></h1>
-      <p>This bot analyses past fixtures to predict future matches</p>
+      <div class = "howTo"><p>To predict enter two teams in the boxes below</p></div>
     </div>
-      
       <div class="content-section">
         <form method="POST" action="/">
-          <fieldset class="form-group">     
-      
+          <fieldset class="form-group">           
             <div class="form-group">
               <span>Home Team : </span>
               <input class="input" type="text" name="HomeTeam">
-            </div>
-      
-      
+            </div> 
             <div class="form-group">
-           
-              <span>Away Team : </span>
+              <span>Away Team :&nbsp</span>
               <input class="input" type="text" name="AwayTeam">
-            </div>
-            
-
-            <div class="test">
-              The home team is {{ state }}
-              The away team is {{ state2 }}
-              prediction is {{ prediction }}
-            </div>
-      
+            </div>                         
           </fieldset>
-
           <div class="form-group">
-            <input class="btn btn-primary" type="submit" value="Predict">
-            
+            <input class="btn btn-primary" type="submit" value="Predict">            
           </div>
-
         </form>
       </div>
+     <div class="text output">
+              <p>The home team is: {{ state }}</p><br>
+              <p>The away team is: {{ state2 }}</p><br>
+              <p>The predicted winner is: {{ prediction }}</p>
+      </div>  
+
       <!-- Could write a for loop here for the teams... -->
       <div class="list">
         <p>Here is a list of teams in the English Premier League:</p>
@@ -136,11 +128,72 @@
       </div>
 
   </main>
-  <footer>
-    <p>Posted by: Hege Refsnes</p>
-    <p>Contact information: <a href="mailto:someone@example.com">
-        er.li@mail.mcgill.ca</a></p>
-  </footer>
+<main>
+<div class="homescreen">
+    <a href = "#How"><button type="button" id="PredictNow"><strong>PREDICT NOW!</strong></button></a>
+</div>
+
+<div class ="Description" id="How">
+<h1 class="paragraph"><Strong>How does it work?</Strong></h1>
+<p class="paragraph">This bot analyses past fixtures to predict future matches</p>
+
+
+<form id= "submit" class= "paragraph" action="/action_page.php" class="paragraph">
+  <scan>Home Team: <input type="text" name="FirstName" value="Team Name"></scan> <br> <br><br>
+  Away Team : <input type="text" name="LastName" value="Team Name">  <br><br><br>
+  <span>  <input id= "input" type="submit" value="Predict Now" > </span>
+  </form>
+
+
+
+<div id="text1">  
+  <img class="image1" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.15752-9/55575537_2243919735858748_6032219775537512448_n.png?_nc_cat=107&_nc_ht=scontent.fymy1-1.fna&oh=262cc29542cf25f5e7e4bcf8d1126be6&oe=5D4A1DCA">
+</div>  
+
+ </div>
+
+
+
+
+<div class= "text2"> 
+<p>This boThis bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<img class="image2" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.15752-9/55575537_2243919735858748_6032219775537512448_n.png?_nc_cat=107&_nc_ht=scontent.fymy1-1.fna&oh=262cc29542cf25f5e7e4bcf8d1126be6&oe=5D4A1DCA">
+
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+<p>This bot analyses past fixtures to predict future matches</p>
+</div>
+
+
+
+
+
+</main>
+
+<footer> 
+<div class="contact"> 
+    <h3>
+      <br> 
+      Contact Us
+    </h3>
+      <p> 
+        <br>
+        Michael Li <br>
+        <scan><a href="mailto:someone@example.com">er.li@mail.mcgill.ca</a></scan>
+      </p>
+</div>
+</footer>
 
 
 </body>
