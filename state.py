@@ -55,7 +55,6 @@ def preprocess(dataframe):
     data['ATCKI'] = season19[season19.Team==AwayTeam]['ATCKI'].reset_index(drop=True)
     data['HTCR'] = season19[season19.Team==HomeTeam]['HTCR'].reset_index(drop=True)
     data['ATCR'] = season19[season19.Team==AwayTeam]['ATCR'].reset_index(drop=True)
-
     return data
 
 def predict(data):
@@ -71,8 +70,8 @@ def predict(data):
 class StateTracker:
     def __init__(self): #Verbose means using or expressed in more words than needed 
         # set the initial states
-        self.HomeTeam = 'Burnley'
-        self.AwayTeam = 'Bournemouth'
+        self.HomeTeam = ''
+        self.AwayTeam = ''
         
     
     def updateState(self, request):

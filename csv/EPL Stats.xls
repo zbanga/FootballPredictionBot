@@ -1,0 +1,185 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>League Table</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr><th rowspan="2" class="sorting_asc" tabindex="0" aria-controls="sleague" colspan="1" aria-sort="ascending" aria-label="Position: activate to sort column descending" style="width: 96.0057px;">Position</th><th rowspan="2" class="sorting" tabindex="0" aria-controls="sleague" colspan="1" aria-label="Team: activate to sort column ascending" style="width: 138.006px;">Team</th><th rowspan="2" class="sorting" tabindex="0" aria-controls="sleague" colspan="1" aria-label="Played: activate to sort column ascending" style="width: 79.0057px;">Played</th><th colspan="2" class="text-center" rowspan="1">Fouls committed by Team</th><th colspan="2" class="text-center" rowspan="1">Fouls committed by Opposition</th><th rowspan="1" colspan="1">&nbsp;</th></tr><tr><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 92.0057px;">Total</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Per Game: activate to sort column ascending" style="width: 162.006px;">Per Game</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 116.006px;">Total</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Per Game: activate to sort column ascending" style="width: 199.006px;">Per Game</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Profile = 100 x Fouls For / Fouls Against&quot;>Profile: activate to sort column ascending" style="width: 80px;"><a data-placement="top" data-html="true" title="" class="tooltip-hover" data-original-title="<strong>Profile</strong> = 100 x Fouls For / Fouls Against">Profile</a></th></tr><tr><td colspan="8" rowspan="1">
+<b>Notes:</b><br>
+Key to column headings:- <br>
+<strong>Profile</strong> = 100 x Fouls committed by Team / Fouls committed by Opposition
+</td></tr><tr>
+<td class="sorting_1">1</td>
+<td>Liverpool</td>
+<td>31</td>
+<td class="text-right">281</td>
+<td class="text-right">9.06</td>
+<td class="text-right">300</td>
+<td class="text-right">9.68</td>
+<td class="text-right">93.67</td>
+</tr><tr>
+<td class="sorting_1">2</td>
+<td>Man City</td>
+<td>30</td>
+<td class="text-right">254</td>
+<td class="text-right">8.47</td>
+<td class="text-right">251</td>
+<td class="text-right">8.37</td>
+<td class="text-right">101.20</td>
+</tr><tr>
+<td class="sorting_1">3</td>
+<td>Tottenham</td>
+<td>30</td>
+<td class="text-right">306</td>
+<td class="text-right">10.20</td>
+<td class="text-right">308</td>
+<td class="text-right">10.27</td>
+<td class="text-right">99.35</td>
+</tr><tr>
+<td class="sorting_1">4</td>
+<td>Arsenal</td>
+<td>30</td>
+<td class="text-right">335</td>
+<td class="text-right">11.17</td>
+<td class="text-right">377</td>
+<td class="text-right">12.57</td>
+<td class="text-right">88.86</td>
+</tr><tr>
+<td class="sorting_1">5</td>
+<td>Man United</td>
+<td>30</td>
+<td class="text-right">349</td>
+<td class="text-right">11.63</td>
+<td class="text-right">339</td>
+<td class="text-right">11.30</td>
+<td class="text-right">102.95</td>
+</tr><tr>
+<td class="sorting_1">6</td>
+<td>Chelsea</td>
+<td>30</td>
+<td class="text-right">266</td>
+<td class="text-right">8.87</td>
+<td class="text-right">368</td>
+<td class="text-right">12.27</td>
+<td class="text-right">72.28</td>
+</tr><tr>
+<td class="sorting_1">7</td>
+<td>Wolves</td>
+<td>30</td>
+<td class="text-right">342</td>
+<td class="text-right">11.40</td>
+<td class="text-right">253</td>
+<td class="text-right">8.43</td>
+<td class="text-right">135.18</td>
+</tr><tr>
+<td class="sorting_1">8</td>
+<td>Watford</td>
+<td>30</td>
+<td class="text-right">349</td>
+<td class="text-right">11.63</td>
+<td class="text-right">320</td>
+<td class="text-right">10.67</td>
+<td class="text-right">109.06</td>
+</tr><tr>
+<td class="sorting_1">9</td>
+<td>West Ham</td>
+<td>31</td>
+<td class="text-right">284</td>
+<td class="text-right">9.16</td>
+<td class="text-right">332</td>
+<td class="text-right">10.71</td>
+<td class="text-right">85.54</td>
+</tr><tr>
+<td class="sorting_1">10</td>
+<td>Leicester</td>
+<td>31</td>
+<td class="text-right">292</td>
+<td class="text-right">9.42</td>
+<td class="text-right">325</td>
+<td class="text-right">10.48</td>
+<td class="text-right">89.85</td>
+</tr><tr>
+<td class="sorting_1">11</td>
+<td>Everton</td>
+<td>31</td>
+<td class="text-right">353</td>
+<td class="text-right">11.39</td>
+<td class="text-right">381</td>
+<td class="text-right">12.29</td>
+<td class="text-right">92.65</td>
+</tr><tr>
+<td class="sorting_1">12</td>
+<td>Bournemouth</td>
+<td>31</td>
+<td class="text-right">270</td>
+<td class="text-right">8.71</td>
+<td class="text-right">374</td>
+<td class="text-right">12.06</td>
+<td class="text-right">72.19</td>
+</tr><tr>
+<td class="sorting_1">13</td>
+<td>Newcastle</td>
+<td>31</td>
+<td class="text-right">357</td>
+<td class="text-right">11.52</td>
+<td class="text-right">291</td>
+<td class="text-right">9.39</td>
+<td class="text-right">122.68</td>
+</tr><tr>
+<td class="sorting_1">14</td>
+<td>Crystal Palace</td>
+<td>30</td>
+<td class="text-right">310</td>
+<td class="text-right">10.33</td>
+<td class="text-right">318</td>
+<td class="text-right">10.60</td>
+<td class="text-right">97.48</td>
+</tr><tr>
+<td class="sorting_1">15</td>
+<td>Brighton</td>
+<td>29</td>
+<td class="text-right">371</td>
+<td class="text-right">12.79</td>
+<td class="text-right">254</td>
+<td class="text-right">8.76</td>
+<td class="text-right">146.06</td>
+</tr><tr>
+<td class="sorting_1">16</td>
+<td>Southampton</td>
+<td>30</td>
+<td class="text-right">337</td>
+<td class="text-right">11.23</td>
+<td class="text-right">296</td>
+<td class="text-right">9.87</td>
+<td class="text-right">113.85</td>
+</tr><tr>
+<td class="sorting_1">17</td>
+<td>Burnley</td>
+<td>31</td>
+<td class="text-right">295</td>
+<td class="text-right">9.52</td>
+<td class="text-right">317</td>
+<td class="text-right">10.23</td>
+<td class="text-right">93.06</td>
+</tr><tr>
+<td class="sorting_1">18</td>
+<td>Cardiff</td>
+<td>30</td>
+<td class="text-right">302</td>
+<td class="text-right">10.07</td>
+<td class="text-right">345</td>
+<td class="text-right">11.50</td>
+<td class="text-right">87.54</td>
+</tr><tr>
+<td class="sorting_1">19</td>
+<td>Fulham</td>
+<td>31</td>
+<td class="text-right">357</td>
+<td class="text-right">11.52</td>
+<td class="text-right">283</td>
+<td class="text-right">9.13</td>
+<td class="text-right">126.15</td>
+</tr><tr>
+<td class="sorting_1">20</td>
+<td>Huddersfield</td>
+<td>31</td>
+<td class="text-right">343</td>
+<td class="text-right">11.06</td>
+<td class="text-right">321</td>
+<td class="text-right">10.35</td>
+<td class="text-right">106.85</td>
+</tr></table></body></html>

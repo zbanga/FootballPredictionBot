@@ -8,6 +8,8 @@ body{
     background-size: 75%;
     background-position-y: 50px;   
     background-position-x: center;
+    margin:0;
+    padding:0;
 }
 
 h1{
@@ -23,7 +25,6 @@ li{
 }
 
 #NavigationBar{
-    /* background-color:rgb(182, 180, 180); */
     background-color: white;
     border-style: none;
     height: 70px;
@@ -45,16 +46,9 @@ li{
     border: 1px;
     margin: 5px;
     font-weight: bold; 
-    /* border: dashed 1px; */
     opacity: 0.75;
     display:inline;
-    /* border-radius: 5px; */
     margin-top: 10px;
-
-
-
-
-
 }
 
 
@@ -75,7 +69,7 @@ div.homescreen{
 #PredictNow{
     position: absolute;
     top:67%;
-    right: 45.7%;
+    right: 45.8%;
     display:inline-block;
     color: grey;
 	font-size: 1em;
@@ -111,45 +105,10 @@ transform: scale(1,1.1) translate(0px, -25px);
 
 100% {
 transform: scale(1,1) translate(0px, 0px);
-}
-}
-
-/* #PredictNow {
-  text-align:center;
-  
-  margin-top: 40px;
-  height:10px;
-  width:300px;
-  opacity: 0.25;
-  background:rgb(82, 80, 80);
-  border-color: rgb(82, 80, 80);
-  border-radius: 50px;
-  padding-bottom: 60px;
- 
-}      */
-
-    
-    /* @keyframes kreep {
-        0% {-webkit-transform: scale(1.1,.9);
-            transform: scale(1.1,.9);}
-       50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
-       70% { -webkit-transform: scale(1);
-             transform: scale(1);}
-    }
-    
-#PredictNow {
-      display: inline-block;
-      /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
-      /* animation: kreep 0.7s ease 2s infinite alternate;
-    }  */
-    
-/* #PredictNow:hover {
-      animation: none;
-    } */
-
+}}
 
 #name {
-    padding-bottom: 10px;
+    margin-top: 2px;
 }
 
 .container-fluid {
@@ -164,15 +123,12 @@ transform: scale(1,1) translate(0px, 0px);
 }
 
 .Description {
-    height: 30px;
+    height: 600px;
     padding-left: 25px;
-    /* background-image: url(../img/maxresdefault.jpg); */
-    /* background-color:rgb(182, 180, 180); */
     background-color: white;
     opacity: 0.75;
     margin: 60px;
     padding: 35px;
-    height: 1100px;
 }
 
 .paragraph {
@@ -198,7 +154,7 @@ transform: scale(1,1) translate(0px, 0px);
 
 .list{
     position:absolute; 
-    top: 990px;
+    top: 925px;
     right: 180px; 
 }
 
@@ -239,10 +195,10 @@ transform: scale(1,1) translate(0px, 0px);
 .contact {
 font-family: Verdana;
 text-align: center;
-color: white;
-background-color: gray;
-height: 140px;
-opacity: 0.40;
+color: silver;
+background-color: black;
+height: 130px;
+opacity: 0.7;
 }
 
 .contact h3 {
@@ -271,12 +227,24 @@ opacity: 0.40;
 .output{
     position:absolute;
     top: 1230px;
-    left: 130px;
+    left: 150px;
     text-align:center;
 }
 
+#HomeAdvantage {
+    height: 500px;
+    width: 900px;
+    margin: auto; 
+    border: auto;
+    position: absolute;
+    right: 250px;
+}
 
-
-
+.img1 {
+    height: 650px;
+    width: 100%;   
+    margin-left: auto; 
+    margin-right: auto; 
+}
 
  

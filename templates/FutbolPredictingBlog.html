@@ -30,13 +30,13 @@
           <li><a href="#How">
               <span class="topbutton">Home</span>
             </a></li>
-          <li><a href="#Predict">
+          <li><a href="#How">
               <span class="topbutton">Predict</span>
             </a></li>
-          <li><a href="#">
+          <li><a href="#How">
               <span class="topbutton">Standings</span>
             </a></li>
-          <li><a href="#">
+          <li><a href="#Contact">
               <span class="topbutton">About</span>
             </a></li>
         </ul>
@@ -48,154 +48,92 @@
     <div class="homescreen">
       <a href="#How"><button type="button" id="PredictNow"><strong>PREDICT NOW!</strong></button></a>
     </div>
-
     <div class="Description" id="How">
       <h1 class="paragraph"><Strong>How does it work?</Strong></h1>
-      <div class = "howTo"><p>To predict enter two teams in the boxes below</p></div>
+      <div class="howTo">
+        <p>To predict enter two teams in the boxes below</p>
+      </div>
     </div>
-      <div class="content-section">
-        <form method="POST" action="/">
-          <fieldset class="form-group">           
-            <div class="form-group">
-              <span>Home Team : </span>
-              <input class="input" type="text" name="HomeTeam">
-            </div> 
-            <div class="form-group">
-              <span>Away Team :&nbsp</span>
-              <input class="input" type="text" name="AwayTeam">
-            </div>                         
-          </fieldset>
+    <div class="content-section">
+      <form method="POST" action="/">
+        <fieldset class="form-group">
           <div class="form-group">
-            <input class="btn btn-primary" type="submit" value="Predict">            
+            <span>Home Team : </span>
+            <input class="input" type="text" name="HomeTeam">
           </div>
-        </form>
-      </div>
-     <div class="text output">
-              <p>The home team is: {{ state }}</p><br>
-              <p>The away team is: {{ state2 }}</p><br>
-              <p>The predicted winner is: {{ prediction }}</p>
-      </div>  
+          <div class="form-group">
+            <span>Away Team :&nbsp</span>
+            <input class="input" type="text" name="AwayTeam">
+          </div>
+        </fieldset>
+        <div class="form-group">
+          <a href='#How'><input class="btn btn-primary" type="submit" value="Predict"></a>
+        </div>
+      </form>
+    </div>
+    <div class="text output">
+      <p>The home team is: {{ state }}</p><br>
+      <p>The away team is: {{ state2 }}</p><br>
+      <p>The predicted winner is: {{ prediction }}</p>
+    </div>
 
-      <!-- Could write a for loop here for the teams... -->
-      <div class="list">
-        <p>Here is a list of teams in the English Premier League:</p>
-        <ul>
-          <li>Arsenal</li>
-          <li>Bournemouth</li>
-          <li>Brighton</li>
-          <li>Burnley</li>
-          <li>Cardiff</li>
-          <li>Chelsea</li>
-          <li>Crystal Palace</li>
-          <li>Everton</li>
-          <li>Fulham</li>
-          <li>Huddersfield</li>
-          <li>Leicester</li>
-          <li>Liverpool</li>
-          <li>Man City</li>
-          <li>Man United</li>
-          <li>Newcastle</li>
-          <li>Southampton</li>
-          <li>Tottenham</li>
-          <li>Watford</li>
-          <li>West Ham</li>
-          <li>Wolves</li>
-        </ul>
-        <p><Strong>Important note: Input names must match the names on the list.</Strong></p>
-      </div>
+    <!-- Could write a for loop here for the teams... -->
+    <div class="list">
+      <p>Here is a list of teams in the English Premier League:</p>
+      <ul>
+        <li>Arsenal</li>
+        <li>Bournemouth</li>
+        <li>Brighton</li>
+        <li>Burnley</li>
+        <li>Cardiff</li>
+        <li>Chelsea</li>
+        <li>Crystal Palace</li>
+        <li>Everton</li>
+        <li>Fulham</li>
+        <li>Huddersfield</li>
+        <li>Leicester</li>
+        <li>Liverpool</li>
+        <li>Man City</li>
+        <li>Man United</li>
+        <li>Newcastle</li>
+        <li>Southampton</li>
+        <li>Tottenham</li>
+        <li>Watford</li>
+        <li>West Ham</li>
+        <li>Wolves</li>
+      </ul>
+      <p><Strong>Important note: Input names must match the names on the list.</Strong></p>
+    </div>
 
 
-
-
-
-      <div class="PredictingModel" id="Predict">
-        <h1 class="paragraph"><Strong>Predicting Model</Strong></h1>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-        <p>This bot analyses past fixtures to predict future matches</p>
-
-      </div>
-
+    <div class = "img1">
+      <img src="../static/img/Annotation 2019-04-08 010646.jpg" alt="Statistics of Home Team Performance">
+    </div>
+    <div class = "img1">
+      <img src="../static/img/Annotation 2019-04-08 010731.jpg" alt="Statistics of Away Team Performance">
+    </div>   
+    <div class = "img1">
+        <img  src="../static/img/HomeTeamAdvantage.png" alt="HomeTeam Advantage" id ="HomeAdvantage">
+    </div>
   </main>
-<main>
-<div class="homescreen">
-    <a href = "#How"><button type="button" id="PredictNow"><strong>PREDICT NOW!</strong></button></a>
-</div>
-
-<div class ="Description" id="How">
-<h1 class="paragraph"><Strong>How does it work?</Strong></h1>
-<p class="paragraph">This bot analyses past fixtures to predict future matches</p>
-
-
-<form id= "submit" class= "paragraph" action="/action_page.php" class="paragraph">
-  <scan>Home Team: <input type="text" name="FirstName" value="Team Name"></scan> <br> <br><br>
-  Away Team : <input type="text" name="LastName" value="Team Name">  <br><br><br>
-  <span>  <input id= "input" type="submit" value="Predict Now" > </span>
-  </form>
-
-
-
-<div id="text1">  
-  <img class="image1" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.15752-9/55575537_2243919735858748_6032219775537512448_n.png?_nc_cat=107&_nc_ht=scontent.fymy1-1.fna&oh=262cc29542cf25f5e7e4bcf8d1126be6&oe=5D4A1DCA">
-</div>  
-
- </div>
-
-
-
-
-<div class= "text2"> 
-<p>This boThis bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<img class="image2" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.15752-9/55575537_2243919735858748_6032219775537512448_n.png?_nc_cat=107&_nc_ht=scontent.fymy1-1.fna&oh=262cc29542cf25f5e7e4bcf8d1126be6&oe=5D4A1DCA">
-
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-<p>This bot analyses past fixtures to predict future matches</p>
-</div>
-
-
-
-
-
-</main>
-
-<footer> 
-<div class="contact"> 
-    <h3>
-      <br> 
-      Contact Us
-    </h3>
-      <p> 
+  <footer>
+    <div class="contact">
+      <h3 id ="Contact">
+        <br>
+        Contact Us
+      </h3>
+      <p>
         <br>
         Michael Li <br>
         <scan><a href="mailto:someone@example.com">er.li@mail.mcgill.ca</a></scan>
       </p>
-</div>
-</footer>
+    </div>
+  </footer>
 
 
 </body>
 
 </html>
+
+<!-- https://www.geeksforgeeks.org/get-post-requests-using-python/ 
+     capsule on get and post requests-->
